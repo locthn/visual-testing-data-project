@@ -15,7 +15,8 @@
       <guid>12b1ed24-3d2b-4bed-87e1-7c72470cdce7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC1_Verify Successful Login_With TestOps Vision</testCaseId>
+      <testCaseId>Test Cases/Dribble Site/TC1_Verify Successful Login_With TestOps Vision</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +40,8 @@
       <guid>e4bf2157-13c0-4c5f-875c-fa60a7e7a2fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Main Test Cases/TC2_Verify Successful Appointment_With TestOps Vision</testCaseId>
+      <testCaseId>Test Cases/Dribble Site/TC2_Verify Successful Appointment_With TestOps Vision</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

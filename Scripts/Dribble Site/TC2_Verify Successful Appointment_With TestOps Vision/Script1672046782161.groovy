@@ -81,3 +81,14 @@ WebUI.verifyMatch('Please make appointment as soon as possible.', WebUI.getText(
 WebUI.closeBrowser()
 
 
+WebUI.comment('Story: Book an appointment')
+
+WebUI.comment('Given that the user has logged into their account')
+
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('Common Test Cases/Login'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('And Appointment page is displayed')

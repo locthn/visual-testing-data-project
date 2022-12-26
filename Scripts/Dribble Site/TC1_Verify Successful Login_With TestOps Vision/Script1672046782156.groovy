@@ -49,3 +49,6 @@ landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/di
 
 WebUI.closeBrowser()
 
+WebUI.comment('Open dribble site with animation site ')
+
+WebUI.openBrowser("https://dribbble.com/tags/web_animation")
